@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: whitesmoke;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 480px;
+  width: 400px;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  display: inline-block;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Rowdies", cursive;
+  font-size: 15px;
+}
+
+li a:hover {
+  background-color: gainsboro;
+}
+
+.active {
+  background-color: gainsboro;
+}
+
+.leftname {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+  float: left;
+}
+
+.img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.img1 {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  -webkit-text-stroke: 3px black;
+  font-family: "Rowdies", cursive;
+  font-size: 90px;
+  color: whitesmoke;
+  position: relative;
+  top: -110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 90px;
+}
+h3 {
+  color: black;
+  font-family: "Rowdies", cursive;
+  font-weight: 450;
+  margin-left: auto;
+  position: relative;
+  top: -110px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.profile {
+  color: black;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 400px;
+  margin-left: -900px;
+  margin-right: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.textJudul {
+  font-family: "Rowdies", cursive;
+  color: black;
+  margin-top: 100px;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+.textJudul1 {
+  font-family: "Rowdies", cursive;
+  color: black;
+  margin-top: 100px;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+.img2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+  margin-left: 165px;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}
+
+.img3 {
+  margin-left: 1060px;
+  margin-right: 10px;
+  margin-top: 30px;
+  position: relative;
+  width: 300px;
+  height: 100px;
+}
+
+.img4 {
+  margin-left: 1130px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.imgig {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgwa {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subtitle {
+  color: black;
+  font-family: "Rowdies", cursive;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 160px;
+  position: relative;
+  margin-top: -200px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.subtitle1 {
+  color: black;
+  font-family: "Rowdies", cursive;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 900px;
+  position: relative;
+  margin-top: -820px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.webdev {
+  margin-left: 900px;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 230px;
+  text-align: right;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  color: black;
+}
+
+.kontak {
+  color: black;
+  font-family: "Rowdies", cursive;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.teksjourney {
+  width: 1500px;
+  height: 150px;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  /* background-color: gainsboro; */
+  text-align: center;
+  line-height: 2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 600px;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gainsboro;
+  color: black;
+  text-align: center;
+  height: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: whitesmoke;
+  }
+  ul {
+    list-style-type: none;
+    margin-left: 10;
+    width: 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: inline-block;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    margin-left: 140px;
+    margin-right: auto;
+  }
+
+  h1 {
+    -webkit-text-stroke: 2px black;
+    font-family: "Rowdies", cursive;
+    font-size: 40px;
+    color: whitesmoke;
+    position: relative;
+    top: -50px;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  h3 {
+    color: black;
+    font-family: "Rowdies", cursive;
+    font-weight: 450;
+    margin-left: 0px;
+    position: relative;
+    top: -50px;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+  }
+  .textJudul {
+    font-family: "Rowdies", cursive;
+    color: black;
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .subtitle {
+    color: black;
+    font-family: "Rowdies", cursive;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 170px;
+    position: relative;
+    margin-top: -180px;
+    margin-right: auto;
+    text-align: left;
+  }
+  .img2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 165px;
+    margin-right: auto;
+    position: relative;
+    display: none;
+  }
+
+  .kontak {
+    color: black;
+    font-family: "Rowdies", cursive;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 0px;
+  }
+  .imgig {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-left: 230px;
+    margin-right: auto;
+  }
+
+  .imgwa {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-left: 230px;
+    margin-right: auto;
+  }
+
+  .profile {
+    color: black;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 400px;
+    margin-left: 0px;
+    margin-right: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 10;
+  }
+
+  .subtitle1 {
+    color: black;
+    font-family: "Rowdies", cursive;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 0px;
+    position: relative;
+    margin-top: -280px;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .webdev {
+    margin-left: 0px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    color: black;
+    font-size: 12px;
+  }
+  .img3 {
+    margin-left: 170px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 150px;
+    height: 60px;
+  }
+
+  .img4 {
+    margin-left: 190px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .textJudul1 {
+    font-family: "Rowdies", cursive;
+    color: black;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .teksjourney {
+    margin-top: 15px;
+    width: 350px;
+    height: 150px;
+    font-family: "Roboto Slab", serif;
+    color: black;
+    /* background-color: gainsboro; */
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    margin-left: 70px;
+    margin-right: auto;
+    margin-bottom: 600px;
+  }
+
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 480px;
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    height: 10px;
+    font-size: 10px;
+  }
+  .divhome {
+    width: 100vh;
+  }
+}
