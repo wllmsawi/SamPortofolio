@@ -312,19 +312,13 @@ h3 {
     font-family: "Rowdies", cursive;
     font-weight: 500;
     font-size: 15px;
-    margin-left: 170px;
+    margin-left: auto;
     position: relative;
     margin-top: -180px;
     margin-right: auto;
     text-align: left;
   }
   .img2 {
-    width: 100px;
-    height: 100px;
-    margin-top: 0;
-    margin-left: 165px;
-    margin-right: auto;
-    position: relative;
     display: none;
   }
 
@@ -394,8 +388,8 @@ h3 {
     font-size: 12px;
   }
   .img3 {
-    margin-left: 170px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     position: relative;
     width: 150px;
@@ -403,8 +397,8 @@ h3 {
   }
 
   .img4 {
-    margin-left: 190px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 80px;
     position: relative;
@@ -417,7 +411,7 @@ h3 {
     color: black;
     margin-top: 50px;
     font-size: 30px;
-    margin-left: 0px;
+    margin-left: auto;
     margin-right: auto;
     position: relative;
     text-align: center;
@@ -433,7 +427,7 @@ h3 {
     text-align: center;
     line-height: 2;
     position: relative;
-    margin-left: 70px;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 600px;
   }
