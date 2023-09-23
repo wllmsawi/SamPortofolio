@@ -258,7 +258,7 @@ h3 {
   ul {
     list-style-type: none;
     margin-left: auto;
-    width: 350px;
+    width: 50vh;
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
@@ -329,7 +329,7 @@ h3 {
     font-size: 15px;
     position: relative;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 150px;
     margin-left: 0px;
   }
   .imgig {
@@ -436,7 +436,7 @@ h3 {
     position: static;
     left: 0;
     bottom: 0;
-    width: 480px;
+    width: 100vh;
     background-color: gainsboro;
     color: black;
     text-align: center;
